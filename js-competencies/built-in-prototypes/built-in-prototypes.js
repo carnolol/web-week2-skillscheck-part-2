@@ -9,8 +9,9 @@
 //dragonMapper should return the the new array. You should
 //use the built-in array method .map
   
-  //Code here
+const dragonMapper = (arr) => {
 
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -20,8 +21,11 @@
 //does NOT have the key favoriteCookie.
 //cookieLoversOnly should return the filtered array.
   
-  //Code here
-
+const cookieLoversOnly = arr => {
+  for(key in arr){
+    if(arr[key] !== favoritreCookie)
+  }
+}
 
 //////////////////PROBLEM 3////////////////////
 
@@ -34,8 +38,9 @@
 //Hint: there is an array method for this.
 
 
-  //Code here
-
+const changeValue = (arr, cb()){
+  
+}
 
 
 //////////////////PROBLEM 4////////////////////

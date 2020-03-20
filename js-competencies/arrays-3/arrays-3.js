@@ -10,9 +10,11 @@
 
 var sunsetColors = ["brown", "purple", "pink", "red", "orange", "yellow"]
 
-//Code here
-
-
+const sunset = sunsetColors => {
+    sunsetColors.slice(0,5).splice(0,1,'blue')
+    return sunset
+}
+// console.log(sunset)
 //////////////////PROBLEM 2////////////////////
 
 //Create a function called sunrise that copies the value of the existing array
@@ -21,8 +23,13 @@ var sunsetColors = ["brown", "purple", "pink", "red", "orange", "yellow"]
 
 var sunriseColors = ["yellow", "orange", "red", "pink", "purple", "blue"]
 
-//Code here
+function sunrise(sunriseColors){
+    sunriseColors.slice()
+    sunriseColors.splice(0,1,"green")
+    return sunrise
+}
 
+console.log(sunrise)
 
 //////////////////PROBLEM 3////////////////////
 
