@@ -23,8 +23,8 @@ function rubberDucks() {
 rubberDucks();
 
 // var contextRubberDucks = "index.html"
-// var contextRubberDucks = 'window';
-var contextRubberDucks = "Object"
+var contextRubberDucks = 'window';
+// var contextRubberDucks = "Object"
 // var contextRubberDucks = "rubberDucks"
 // var contextRubberDucks = "context.js"
 
@@ -46,7 +46,7 @@ var dcMetro = {
 // var contextBreakMetro = "index.html"
 // var contextBreakMetro = "window"
 // var contextBreakMetro = "Object"
-// var contextBreakMetro = 'dcMetro';
+var contextBreakMetro = 'dcMetro';
 // var contextBreakMetro = "context.js"
 
 
@@ -63,9 +63,11 @@ var ascent = {
   }
 };
 
-// CODE HERE
-
-
+const areWeThereYet = function moreToGo(destination, height){
+  this.destination - this.height
+  return moreToGo
+}
+console.log(moreToGo())
 // Now, invoke areWeThereYet and save the result to
 // a variable named moreToGo.
 
@@ -75,13 +77,13 @@ var ascent = {
 // Now, uncomment the best answers:
 
 // What will the value of moreToGo be?
-// var valMoreToGo = 1500
+var valMoreToGo = 1500
 // var valMoreToGo = NaN;
 // var valMoreToGo = undefined
 // var valMoreToGo = -1500
 
 // What was the context of areWeThereYet when you ran it?
-// var contextAreWeThereYet = "ascent"
+var contextAreWeThereYet = "ascent"
 // var contextAreWeThereYet = 'window';
 // var contextAreWeThereYet = "Object"
 // var contextAreWeThereYet = "context.js"

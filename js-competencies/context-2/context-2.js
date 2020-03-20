@@ -26,12 +26,12 @@ var book2 = {
 // Run the method checkOut on book1, and save it to a
 // variable named book1CheckOut.
 
-// CODE HERE
-
+const book1CheckOut = book1.checkOut()
+// console.log(checkOut(book1.title))
 
 // What is the context of running book1.checkOut()?
 // var q1Context = "explicit"
-// var q1Context = 'implicit';
+var q1Context = 'implicit';
 // var q1Context = "default"
 // var q1Context = "new"
 
@@ -40,11 +40,10 @@ var book2 = {
 // Run the function checkOut on book2, and save it to a
 // variable named book2CheckOut.
 
-// CODE HERE
-
+const book2CheckOut = checkOut(book2)
 
 // What is the context of running the function checkOut on book1?
-// var q2Context = 'explicit';
+var q2Context = 'explicit';
 // var q2Context = "implicit"
 // var q2Context = "default"
 // var q2Context = "new"
@@ -54,8 +53,7 @@ var book2 = {
 // Run the function checkout, and save it to a
 // variable named globalCheckOut.
 
-// CODE HERE
-
+let globalCheckOut = checkOut()
 
 // What is the context of running checkOut()?
 // var q3Context = "explicit"
@@ -68,12 +66,11 @@ var book2 = {
 // Using the .apply method on the book1's checkOut function, run it using book2
 // as the argument. Save the result to a variable named book2CheckOut2.
 
-// CODE HERE
-
+// const book2CheckOut2 = apply(checkOut(book2))
 
 // What is the context of applying the book1 method
 // checkOut to book2?
-// var q4Context = 'explicit';
+var q4Context = 'explicit';
 // var q4Context = "implicit"
 // var q4Context = "default"
 // var q4Context = "new"
@@ -98,8 +95,7 @@ function updatePerson(name, age, title) {
 // pass in the values "Anne Boleyn", 30, and "Queen of
 // England"; save the result to a variable named queenAnne.
 
-//Code here
-
+let queenAnne = updatePerson.call("Anne Boleyn", 30,"Queen of England")
 
 // Q2:
 // Use the method .apply to run updatePerson on person2;

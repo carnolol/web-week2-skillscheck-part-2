@@ -10,9 +10,12 @@
 
   function addNumbers(value){
       var myNumbers = []
-      //Code here
-      
+  for(let i = 0; i < value.length; i ++){
+  myNumbers.push(value[i])
   }
+  return myNumbers    
+}
+// console.log([i])  
 
 
 //////////////////PROBLEM 2////////////////////
@@ -24,8 +27,8 @@
 
   function backwardsGreeting(arr) {
     let greetings = [];
-    //Code here
-  
+    for(let i = arr.length -1; i < 0; i--)
+    greetings.push("Hello" + arr[i])
   }
 
 
@@ -37,6 +40,9 @@
 //the variable i for your for loop
 
   function leapFrog(arr) {
-    //Code here
-
+    for(i < 0; i <arr.length; i++){
+      if(arr[i] % 2===1)
+      return arr[i] + " frog"
+    }
+    return arr
   }
